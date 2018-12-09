@@ -18,6 +18,8 @@ def motion_detected():
 
 if __name__ == '__main__':
     count = 0
+    print("INFO : Exit by pressing ctrl-c.")
+
     try:
         while True:
             camera.wait_recording(1)
@@ -32,5 +34,5 @@ if __name__ == '__main__':
         print("INFO : User pressed ctrl-c")
         print("       Exiting {} {}".format(PROG_NAME, PROG_VER))
 
-    finally: 
+    finally:
         camera.stop_recording()
