@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # based on example python code:
-# 
+# https://picamera.readthedocs.io/en/release-1.13/recipes2.html#splitting-to-from-a-circular-stream
 
 import os
 import io
