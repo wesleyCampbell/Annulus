@@ -23,7 +23,7 @@ try:
         camera.wait_recording(1)
         
 except KeyboardInterrupt:
-    camera.stop_recording()
+    camera.stop_recording() 
     
 finally:
     connection.close()
