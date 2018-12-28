@@ -14,7 +14,7 @@ stream_socket.listen(0)
 
 connection = stream_socket.accept()[0].makefile('wb')
 
-#video streaming inialization and termination
+# video streaming inialization and termination
 
 camera.start_recording(connection, format='h264')
 
